@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#anchor {
+    width: 100%;
+}
+
+#eyes, #eyes img {
+    position: absolute;
+    height: 35px;
+    width: 45px;
+}
